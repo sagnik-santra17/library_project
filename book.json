@@ -1,0 +1,14 @@
+[
+    {
+        "book_id": "1",
+        "title": "Harry Potter and the Goblet of Fire",
+        "author": "J.K. Rowling",
+        "available": true
+    },
+    {
+        "book_id": "2",
+        "title": "Harry Potter and the Prisnor of Azkaban",
+        "author": "J.K. Rowling",
+        "available": true
+    }
+]
