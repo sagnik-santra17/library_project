@@ -6,8 +6,8 @@ class Book:
         self.available = available
 
     def __str__(self):
-        return f"Book ID: {self.book_id}, Title: {self.title}, Author: {self.author}, Availability: {self.get_status()}"
+        return f"Book ID: {self.book_id}\nTitle: {self.title}\nAuthor: {self.author}\nAvailability: {self.get_status()}"
     
     def get_status(self):
-        return "Available" if self.available else "Borrowed"
+        return "Available 👍🏻" if self.available else "Borrowed ⚠️"
         
